@@ -1205,9 +1205,17 @@ input[type=submit] {
 
 
 .udstilling_container {
+    /*
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
+*/
+    background-image: url(img/Artboard%205.svg);
+    background-size: cover;
+    background-position: center;
+    min-width: 100vw;
+    height: 300px;
+
 }
 
 
