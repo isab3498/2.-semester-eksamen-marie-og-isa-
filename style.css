@@ -176,7 +176,7 @@ a {
     background-image: url(img/pink_lady_header.jpg);
     background-size: cover;
     width: 100vw;
-    height: 90px;
+    height: 45px;
     /*    box-shadow: 0px 11px 17px rgba(0, 0, 0, 0.16);*/
     background-attachment: fixed;
     /*gør at billedet ligger sig over dropdown menuen*/
@@ -946,7 +946,7 @@ input[type=submit] {
 }
 
 .styrkbrand_billede {
-    background-image: url(img/bluewaves.jpg);
+    background-image: url(img/Harmonie%20med%20baggrund.jpg);
     background-size: cover;
     background-position: center;
     max-width: 400px;
@@ -2143,8 +2143,8 @@ footer a {
     .insta_billede_4,
     .insta_billede_5,
     .insta_billede_6 {
-        height: 180px;
-        width: 180px;
+        height: 120px;
+        width: 120px;
 
     }
 
@@ -2154,8 +2154,8 @@ footer a {
     .insta_4,
     .insta_5,
     .insta_6 {
-        width: 180px;
-        height: 180px;
+        width: 120px;
+        height: 120px;
     }
 
 }
