@@ -552,7 +552,7 @@ video {
 
 .forside_om_col {
     background-color: rgba(255, 255, 255, 0.76);
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     max-width: 1200px;
     margin: 0 1rem;
     left: -10px;
@@ -1562,7 +1562,7 @@ footer a {
     }
 
     .forside_om_col {
-        max-width: 600px;
+        max-width: 550px;
         margin: 0 1rem;
         text-align: center;
     }
