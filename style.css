@@ -188,7 +188,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 100px;
+
 }
 
 
@@ -209,8 +209,8 @@ header {
     background-image: url(img/logo_blue.svg);
     background-size: cover;
     margin: 10px 10px;
-    width: 220px;
-    height: 70px;
+    width: 200px;
+    height: 55px;
 }
 
 /** NAV **/
@@ -223,7 +223,7 @@ header {
     font-family: 'avenir';
     position: absolute;
     right: 35px;
-    top: 20px;
+    top: 10px;
     line-height: 1.5;
     color: #444C59;
     cursor: pointer;
@@ -373,7 +373,6 @@ header li a {
 
 /******   Forside   ******/
 video {
-    top: 0;
     position: fixed;
     z-index: -1;
     overflow: hidden;
@@ -386,6 +385,7 @@ video {
     left: 0;
     padding: 0;
     height: 400px;
+
     /*    background-image: url(img/forside_video.png)*/
 }
 
@@ -1892,7 +1892,7 @@ footer a {
 
 @media only screen and (min-width: 1000px) {
     header {
-        position: sticky;
+        /*        position: sticky;*/
 
     }
 
@@ -1906,6 +1906,7 @@ footer a {
         display: inline-block;
         width: auto;
         margin: 0;
+
     }
 
     header li a:hover {
@@ -1919,7 +1920,7 @@ footer a {
     }
 
     header li:first-child {
-        margin-top: 40px;
+        margin-top: 25px;
     }
 
     header ul li:last-child {
@@ -1941,11 +1942,12 @@ footer a {
 
     #menu.hidden {
         display: inherit;
+
     }
 
     #menu {
         text-align: right;
-        height: 100px;
+        height: 70px;
         width: 70%;
         margin-right: 20px;
 
