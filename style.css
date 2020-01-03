@@ -1465,7 +1465,7 @@ footer a {
 .footer_1:hover,
 .footer_2:hover,
 .footer_3:hover {
-    transform: scale(1.08) translateY(-4px);
+    transform: scale(1.08) translateX(-4px);
     transition: 0.5s;
 }
 
