@@ -24,6 +24,7 @@
     animation-direction: alternate-reverse;
 }
 
+/***HELLO***/
 @keyframes pulse_kf {
     0% {
         transform: scale(1);
