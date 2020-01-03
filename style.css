@@ -1121,25 +1121,37 @@ input[type=submit] {
 .data_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 10px;
+    margin: auto;
+    max-width: 1000px;
 }
 
+.filter_knapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: auto;
+}
 
 .filter_knapper .button {
-    background-color: #E1E9F3;
+    background-color: white;
     border: none;
     color: #444B5B;
-    padding: 10px 30vw;
+    padding: 10px 20px;
     text-align: center;
 }
 
 .filter {
-    margin: 25px;
+    margin: 20px 0px;
     text-align: center;
 }
 
 .valgt {
-    text-decoration: underline #E36293;
+    background-color: rgb(227, 98, 147);
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 
@@ -1688,8 +1700,10 @@ footer a {
     }
 
     .billed_ramme {
-        max-height: 25vw;
+        max-height: 29vw;
     }
+
+    /*
 
     .grid_container {
         display: grid;
@@ -1697,6 +1711,8 @@ footer a {
         grid-gap: 0.5rem;
         grid-template-areas: "sidebar liste liste liste";
     }
+
+
 
     .sidebar {
         position: fixed;
@@ -1720,6 +1736,7 @@ footer a {
         margin: 25px;
         text-align: right;
     }
+*/
 
     #virksomhedsvideo iframe {
         width: 100%;
