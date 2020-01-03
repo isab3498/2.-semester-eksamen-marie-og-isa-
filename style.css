@@ -2123,8 +2123,8 @@ footer a {
     .insta_billede_4,
     .insta_billede_5,
     .insta_billede_6 {
-        height: 180px;
-        width: 180px;
+        height: 120px;
+        width: 120px;
 
     }
 
@@ -2134,8 +2134,8 @@ footer a {
     .insta_4,
     .insta_5,
     .insta_6 {
-        width: 180px;
-        height: 180px;
+        width: 120px;
+        height: 120px;
     }
 
 }
