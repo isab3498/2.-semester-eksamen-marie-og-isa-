@@ -983,7 +983,8 @@ input[type=submit] {
 }
 
 #events_udstillinger h1 {
-    margin-bottom: 30px;
+    margin-bottom: -10px;
+    margin-top: 60px;
 }
 
 #events_billede {
@@ -1006,7 +1007,6 @@ input[type=submit] {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    padding: 30px 0;
 }
 
 .events_workshops_col {
@@ -1201,6 +1201,9 @@ input[type=submit] {
 
 /********** Udstillinger ******/
 
+#events_udstillinger {
+    margin-top: 40px;
+}
 
 .udstilling_container {
     /*
@@ -1211,8 +1214,9 @@ input[type=submit] {
     background-image: url(img/Artboard%205.svg);
     background-size: cover;
     background-position: center;
-    min-width: 100vw;
-    height: 300px;
+    width: 370px;
+    height: 370px;
+    margin: auto;
 
 }
 
@@ -1748,7 +1752,7 @@ footer a {
     }
 
     #events_workshops {
-        margin: 50px 80px;
+        margin: 0px 80px;
         padding: 3px 2px;
     }
 
@@ -2110,6 +2114,22 @@ footer a {
         margin-top: 130px;
 
     }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .udstilling_container {
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .udstilling_container {
+        width: 700px;
+        height: 700px;
+    }
+
 }
 
 
