@@ -552,7 +552,7 @@ video {
 
 .forside_om_col {
     background-color: rgba(255, 255, 255, 0.76);
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     max-width: 1200px;
     margin: 0 1rem;
     left: -10px;
@@ -987,14 +987,15 @@ input[type=submit] {
     margin-top: 60px;
 }
 
-#events_billede {
-    background-image: url(img/workshop_1.jpg);
-    width: 100vw;
-    height: 200px;
+#events_afsnit {
+    background-image: url(img/afsnitsstreg.svg);
+    max-width: 75vw;
+    height: 3px;
     box-shadow: 0px 11px 17px rgba(0, 0, 0, 0.16);
     background-size: cover;
     background-position: center;
     margin-top: 30px;
+    margin: 40px auto;
 }
 
 #events_workshops {
@@ -1362,6 +1363,7 @@ footer {
     background-color: #ffffff;
     text-align: center;
     margin: auto;
+    padding: 10px;
 
 }
 
@@ -1572,7 +1574,7 @@ footer a {
     }
 
     .forside_om_col {
-        max-width: 600px;
+        max-width: 550px;
         margin: 0 1rem;
         text-align: center;
     }
@@ -1762,9 +1764,12 @@ footer a {
         padding-top: 130px;
     }
 
-    #events_billede {
+    #events_afsnit {
         margin-bottom: 30px;
-        height: 300px;
+        height: 3px;
+        max-width: 90vw;
+
+
     }
 
     #events_workshops {
