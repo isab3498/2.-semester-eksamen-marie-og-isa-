@@ -1349,7 +1349,6 @@ footer {
 .instagram_wrapper {
     background-color: #ffffff;
     text-align: center;
-    padding: 10px 0 0;
     margin: auto;
 
 }
@@ -1424,9 +1423,9 @@ footer {
 
 .footer_signatur {
     background-image: url(img/logo_signature_blaa.svg);
-    margin: 20px auto;
-    width: 220px;
-    height: 70px;
+    margin: 0px auto;
+    width: 200px;
+    height: 60px;
 }
 
 .instagram_wrapper h2 {
