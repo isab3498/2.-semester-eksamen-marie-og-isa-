@@ -1011,7 +1011,7 @@ input[type=submit] {
     margin-top: 60px;
 }
 
-#events_afsnit {
+.events_afsnit {
     background-image: url(img/afsnitsstreg.svg);
     max-width: 75vw;
     height: 3px;
@@ -1703,6 +1703,8 @@ footer a {
         justify-content: flex-end
     }
 
+
+
 }
 
 /* MEDIA PÅ MIN 750PX */
@@ -1728,6 +1730,7 @@ footer a {
     .billed_ramme {
         max-height: 29vw;
     }
+
 
     /*
 
@@ -1788,7 +1791,7 @@ footer a {
         padding-top: 130px;
     }
 
-    #events_afsnit {
+    .events_afsnit {
         margin-bottom: 30px;
         height: 3px;
         max-width: 90vw;
@@ -1898,6 +1901,8 @@ footer a {
         height: 500px;
         background-attachment: fixed;
     }
+
+
 
 
 
@@ -2140,7 +2145,10 @@ footer a {
         background-size: 100%;
     }
 
+
 }
+
+
 
 /** pile vis mere slutter**/
 
