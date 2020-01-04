@@ -393,7 +393,7 @@ video {
 .splash_knap {
     margin-top: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 
@@ -1687,7 +1687,7 @@ footer a {
 
     .splash_knap {
         margin-top: -40px;
-        margin-right: 40px;
+        /*                margin-right: 40px;*/
     }
 
     .nyhed_knap {
