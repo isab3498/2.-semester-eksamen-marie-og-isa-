@@ -445,7 +445,7 @@ video {
     margin: 0 1rem 1rem auto;
     padding: 0;
     position: fixed;
-    bottom: 100px;
+    bottom: 230px;
     right: 16px;
     z-index: 99;
     cursor: pointer;
@@ -1700,6 +1700,11 @@ footer a {
         justify-content: flex-end
     }
 
+    #knap-top {
+        bottom: 190px;
+    }
+
+
 }
 
 /* MEDIA PÅ MIN 750PX */
@@ -1724,6 +1729,10 @@ footer a {
 
     .billed_ramme {
         max-height: 29vw;
+    }
+
+    #knap-top {
+        bottom: 220px;
     }
 
     /*
@@ -1894,6 +1903,10 @@ footer a {
     #splash {
         height: 500px;
         background-attachment: fixed;
+    }
+
+    #knap-top {
+        bottom: 230px;
     }
 
 
@@ -2134,7 +2147,12 @@ footer a {
         background-size: 100%;
     }
 
+    #knap-top {
+        bottom: 100px;
+    }
 }
+
+
 
 /** pile vis mere slutter**/
 
