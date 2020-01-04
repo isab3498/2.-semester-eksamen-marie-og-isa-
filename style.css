@@ -1011,7 +1011,7 @@ input[type=submit] {
     margin-top: 60px;
 }
 
-#events_afsnit {
+.events_afsnit {
     background-image: url(img/afsnitsstreg.svg);
     max-width: 75vw;
     height: 3px;
@@ -1797,7 +1797,7 @@ footer a {
         padding-top: 130px;
     }
 
-    #events_afsnit {
+    .events_afsnit {
         margin-bottom: 30px;
         height: 3px;
         max-width: 90vw;
