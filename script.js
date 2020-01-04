@@ -28,3 +28,31 @@ function toggleMenu() {
         document.querySelector(".forside #menuknap").style.color = "#444C59";
     }
 }
+
+/****** Til top knap ******/
+let tilToppen = document.querySelector("#knap-top");
+
+// Når man scroller 20px ned vises knappen på hver side
+window.onscroll = function () {
+    scrollFunction()
+    knapTilTop();
+};
+
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        tilToppen.style.display = "flex";
+    } else {
+        tilToppen.style.display = "none";
+    }
+}
+
+
+function knapTilTop() {
+    console.log("knapTilTop");
+
+    document.querySelector("#knap-top").addEventListener("click", () => {
+        location.href = `#`;
+    })
+
+}
